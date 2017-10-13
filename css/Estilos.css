@@ -1,0 +1,87 @@
+﻿    * {
+        margin:0px;
+        padding:0px;
+
+    }
+
+    header {
+        margin-top:10px;
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        position: relative;
+    }
+    nav {
+        top:-20px;
+        position: absolute;
+        left:0;
+        right:0;
+        margin:20px auto;
+        max-width:1000px;
+        width:90%;
+    }
+
+    nav ul{
+
+       list-style:none;
+    }
+
+    nav > ul {
+        display:table;
+        width:100%;
+        overflow:hidden;
+        background:#000000;
+        position: relative;
+    }
+
+    nav > ul li{
+        display:table-cell;
+   
+    }
+
+    nav > ul li a {
+      color:#fff;
+      display:block;
+      line-height:20px;
+      padding:20px;
+      position:relative;
+      text-align:center;        
+      text-decoration:none;
+
+          -webkit-transition: all .3s ease;
+          -moz-transition: all .3s ease;
+         
+          -o-transition: all .3s ease;
+           transition: all .3s ease;
+    }
+
+    nav > ul > li > a span{
+        background:#13216c;
+        display:block; 
+        height:100%;
+        width:100%;
+        left:0;
+        position:absolute;
+        top:-55px;
+          -webkit-transition: all .3s ease;
+          -moz-transition: all .3s ease;
+         
+          -o-transition: all .3s ease;
+           transition: all .3s ease;
+    }
+        nav > ul > li > a span .icon {
+
+            display:block;
+            line-height:60px;
+        }
+
+        nav > ul > li > a:hover > span{
+            top:0;
+
+
+        }
+
+        body{
+
+            background:url(../imagenes/logo.jpg) no-repeat fixed center center;
+        }
